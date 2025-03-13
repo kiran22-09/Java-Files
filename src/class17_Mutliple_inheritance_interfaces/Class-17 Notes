@@ -1,0 +1,23 @@
+class17 notes
+=====================
+multiple inheritance is possible in JAVA 
+by using interfaces 
+reason:
+mainly because of methods do not have method body (method definition)
+interfaces only have method declarations.
+
+
+multiple inheritance is NOT possible in JAVA 
+by using classes.
+reason: Two independent parent classes can have any method signature and if a child class tries 
+to access the parent it will get confused which parent class method it tries to access.
+
+
+-------------------------------------------------------------
+abstract classes 
+even if one of the method is marked as abstract then the whole of the class should be marked as abstract.
+
+abstract classes can not be instantiated means you can not create a object out of a abstract class.
+
+interfaces can not be instantiated means you can not create a object out of a interface.
+

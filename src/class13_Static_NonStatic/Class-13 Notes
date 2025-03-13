@@ -1,0 +1,18 @@
+---class 13 notes
+static variable does not have any effect on object creation
+where as instance variable is always associated with object creation
+
+static methods can be accessed outside class with out object creation 
+by using classname.method name
+
+non static methods can not be acceesed without object creation.
+
+static variable can be accessed from outside class with out object creation
+classname.static_variable
+
+instance variable can not be accessed outside the class with out object creation.
+
+non static method can access another non static method.
+static method can not access non static method
+
+instance variables can not be accessed in the static method.
